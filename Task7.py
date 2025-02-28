@@ -390,3 +390,5 @@ for record in records:
 df = pd.DataFrame(records, columns=["State_UT", "District", "Literacy_Rate_Percentage"])
 st.subheader("20.Overall literacy rate (percentage of literate population) in each state")
 st.dataframe(df)
+
+# Run this file using 'Streamlit run Task7.py' - command
